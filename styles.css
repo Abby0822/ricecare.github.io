@@ -1,0 +1,145 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url('field.jpg'); /* Replace with the actual path to the paddy field image */
+    background-size: cover;
+    background-position: center;
+    color: rgb(251, 246, 246);
+    line-height: 1.6;
+}
+
+/* Container for page content */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: rgba(0, 0, 0, 0.5); /* Slight dark overlay for readability */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+/* Box Style for Sections */
+.box {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background */
+    border: 2px solid #fff; /* White border around the box */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Slight shadow effect */
+}
+
+.box h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.box p, .box ul, .box ol {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.box ul, .box ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.box li {
+    margin-bottom: 10px;
+}
+
+/* How to Use Section */
+#how-to-use ol {
+    padding-left: 20px;
+}
+
+#how-to-use ol li {
+    margin: 10px 0;
+}
+
+#how-to-use ol li strong {
+    color: #ffcc00; /* Highlight the important steps */
+}
+
+/* Features Section */
+#features ul {
+    padding-left: 20px;
+}
+
+#features li {
+    margin: 10px 0;
+}
+
+/* Benefits Section */
+#benefits ul {
+    padding-left: 20px;
+}
+
+#benefits li {
+    margin: 10px 0;
+}
+
+/* Download Section */
+#download {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#download h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#download p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.download-btn button {
+    background-color: #4CAF50;  /* Green background */
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download-btn button:hover {
+    background-color: #45a049;  /* Darker green when hovered */
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
